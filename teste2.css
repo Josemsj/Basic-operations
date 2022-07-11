@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Kdam+Thmor+Pro&family=Nunito:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto condensed, sans-serif;
+    background-color: tomato;
+}
+
+.cabeca-bg {
+    background: rgb(37, 35, 35);
+    height: 60px;
+}
+
+.cabeca {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 1800px;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-size: 1.10rem;
+}
+
+.dia,
+.horas {
+    font-size: 2.25rem;
+    margin: 0 auto;
+    font: bold;
+}
+ 
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 2.25rem;
+    color: white;
+}
+
+.input { 
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+} 
+
+.n1, .n2, .btn{
+    padding: 6px;
+    border: none;
+    border-radius: 6px;
+
+}
+
+.n1, .n2  {
+    margin-top: 10px;
+    box-shadow: black 8px 8px 12px;
+}
+
+.btn{
+    margin-top: 12px; 
+    background-color: rgb(37, 35, 35); 
+    color:white;
+    cursor: pointer;
+    margin-bottom: 40px; 
+}
+.btn:hover {
+    transition: 0.4s;
+    background-color: rgb(67, 65, 65);
+}
+
+.res {
+    text-align: center;
+    background-color: white;
+    padding: 6px;
+    width: 340px;
+    margin: auto;
+    height: 220px;
+    border-radius: 6px;
+    font-size: 1.25rem;
+}
